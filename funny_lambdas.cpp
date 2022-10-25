@@ -3,7 +3,7 @@
 
 namespace
 {
-  // No return
+        // No return
 	auto check_time = [](void (*func)())
 	{
 		auto begin = std::chrono::high_resolution_clock::now();
@@ -36,3 +36,4 @@ namespace
 
 	// func <- pointer to function
 }
+	
